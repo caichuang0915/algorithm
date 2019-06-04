@@ -28,5 +28,17 @@ public class QuickSortServiceImpl implements SortService {
     @Override
     public void sort(int[] array) {
 
+
+    }
+
+
+//    private int partition(int[] arr,int left,int right){
+//
+//    }
+
+    private void swap(int[] arr,int i ,int j){
+        int tmp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = tmp;
     }
 }
