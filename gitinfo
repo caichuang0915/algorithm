@@ -1,0 +1,148 @@
+  311  git init
+  312  git branch
+  318  git add .
+  git commit -m 'fix'
+  320  git status
+  321  git remote add origin https://github.com/caichuang0915/study.git
+  322  git push -u origin master
+  323  git push -u origin master
+  324  git remote -v
+  325  git remote rm origin
+  326  git remote -v
+  327  git remote add origin git@github.com:caichuang0915/study.git
+  328  git push -u origin master
+  329  git commit -a -m 'fix'
+  330  git status
+  352  git add .
+  354  git push
+  355  git rm -r --cached .
+  356  git add .
+  357  git add .
+  359  git push
+  360  git commit -a -m 'fix'
+  361  git push
+  362  git pull
+  363  git checkout -b develop
+  364  git pull
+  365  git add .
+  367  git push
+  368  git push origin develop
+  369  git checkout -b D_first
+  370  git push origin D_first
+  371  git checkout -b D_two
+  372  git push origin D_two
+  373  git branch
+  374  git pull
+  375  git pull origin D_two
+  376  git log
+  377  git status
+  378  git commit -a -m 'fix'
+  379  git add .
+  381  git push
+  382  git push orgrin D_two
+  383  git push
+  384  git push --set-upstream origin D_two
+  385  git chekout D_first
+  386  git branch
+  387  git checkout D_first
+  388  git pull
+  389  git pull origin D_first
+  390  git status
+  391  git lo
+  392  git log
+  393  git commit -a -m 'fix'
+  394  git add .
+  395  git commit -a -m 'fix'
+  396  git push origin D_first
+  397  git checkout develop
+  398  git branch
+  399  git pull
+  400  git pull origin develop
+  401  git merge D_first
+  402  git commit -a -m 'fix'
+  403  git push
+  404  git push origin develop
+  405  git merge D_two
+  406  git log
+  411  git status
+  414  git add .
+  415  git commit -m 'merge'
+  416  git push origin master
+  417  git checkout master
+  418  git pull
+  421  git pull
+  422  git pull --no-ff develop
+  423  git pull
+  424  git branch
+  425  git merge --no-ff develop
+  426  git commit -a -m 'fix'
+  427  git add .
+  429  git push
+  430  git branch
+  431  git branch -d D_first
+  432  git branch -d D_two
+  433  git add .
+  434  git push
+  435  git push origin --delete D_first
+  436  git push origin --delete D_two
+  437  git branch
+  438  git checkout develop
+  439  git branch
+  441  git commit -a -m 'first'
+  442  git add .
+  443  git commit -a -m 'first'
+  444  git push
+  445  git push --set-upstream origin develop
+  446  git add .
+  447  git commit -a -m 'first'
+  448  git push
+  449  git add .
+  450  git commit -a -m 'first'
+  451  git push
+  452  git log
+  453  git log --oneline --graph
+  454  git tag -a first 00d3aff
+  455  git tag -a two d2bdfc7
+  456  git tag -a three cf8a684
+  457  git log --oneline --graph
+  458  git reset --hard d2bdfc7
+  459  git log --oneline --graph
+  460  git push
+  461  git pull
+  462  git push
+  463  git branch
+  464  git log --oneline --graph
+  465  git reset --hard d2bdfc7
+  466  git add .
+  467  git commit -a -m 'two'
+  468  git status
+  469  git push origin develop
+  470  git log --oneline --graph
+  471  git pull
+  472  git log --oneline --graph
+  473  git push
+  474  git add .
+  475  git reset
+  476  git status
+  477  git add .
+  478  git status
+  479  git commit -m 'update'
+  480  git status
+  481  git reset
+  482  git reset --hard
+  483  git log
+  484  git log --oneline --graph
+  485  git reset --mixed cf8a684
+  486  git status
+  487  git add .
+  488  git log --oneline --graph
+  489  git reset
+  490  git reset --hard
+  491  git log --oneline --graph
+  492  git reset --hard d2bdfc7
+  493  git push -f
+  494  git relog
+  495  git reflog
+  496  git log --oneline --graph
+  497  git reset --hard 00d3aff
+  498  git push -f
