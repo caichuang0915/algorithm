@@ -146,3 +146,6 @@
   496  git log --oneline --graph
   497  git reset --hard 00d3aff
   498  git push -f
+
+Push to origin/master was rejected
+git pull origin master --allow-unrelated-histories
