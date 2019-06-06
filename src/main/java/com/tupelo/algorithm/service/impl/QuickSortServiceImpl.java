@@ -32,9 +32,10 @@ public class QuickSortServiceImpl implements SortService {
     }
 
 
-//    private int partition(int[] arr,int left,int right){
-//
-//    }
+    private int partition(int[] arr,int left,int right){
+
+        return 0;
+    }
 
     private void swap(int[] arr,int i ,int j){
         int tmp = arr[i];
